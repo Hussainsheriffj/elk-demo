@@ -28,7 +28,7 @@ data "aws_vpc" "elk_vpc"{
 data "aws_internet_gateway" "elk_igw" {
   filter {
     name = "tag:Name"
-    values="Internet gateway"
+    values = "Internet gateway"
   }
   
 }
